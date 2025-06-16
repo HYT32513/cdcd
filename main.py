@@ -1,9 +1,5 @@
 import streamlit as st
-import openai
 import os
-
-# 🔑 OpenAI API 키 설정
-openai.api_key = st.secrets["openai"]["api_key"]
 
 # 🌐 페이지 설정
 st.set_page_config(page_title="무림 캐릭터 생성기", page_icon="🗡️")
